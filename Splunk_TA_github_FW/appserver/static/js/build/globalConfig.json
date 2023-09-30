@@ -1,0 +1,574 @@
+{
+    "pages": {
+        "configuration": {
+            "tabs": [
+                {
+                    "name": "account",
+                    "table": {
+                        "actions": [
+                            "edit",
+                            "delete",
+                            "clone"
+                        ],
+                        "header": [
+                            {
+                                "label": "Account Name",
+                                "field": "name"
+                            },
+                            {
+                                "label": "Personal Access Token",
+                                "field": "security_token"
+                            }
+                        ]
+                    },
+                    "entity": [
+                        {
+                            "type": "text",
+                            "label": "Account Name",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "errorMsg": "Account Name must not exceed 50 characters.",
+                                    "minLength": 1,
+                                    "maxLength": 50
+                                },
+                                {
+                                    "type": "regex",
+                                    "errorMsg": "Account name should not contain whitespace and must start with a letter and followed by alphabetic letters, digits or underscores.",
+                                    "pattern": "^[a-zA-Z]\\w*$"
+                                }
+                            ],
+                            "options": {
+                                "placeholder": "Required"
+                            },
+                            "field": "name",
+                            "help": "Enter a unique name for this GitHub account.",
+                            "required": true
+                        },
+                        {
+                            "field": "security_token",
+                            "label": "Personal Access Token",
+                            "type": "text",
+                            "encrypted": true,
+                            "required": true,
+                            "options": {
+                                "placeholder": "Required"
+                            },
+                            "help": "Enter the personal access token generated for this GitHub account.",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 8192,
+                                    "errorMsg": "Length of password should be between 1 and 8192"
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "GitHub Account"
+                },
+                {
+                    "title": "Proxy",
+                    "name": "proxy",
+                    "entity": [
+                        {
+                            "type": "checkbox",
+                            "field": "proxy_enabled",
+                            "label": "Enable Proxy"
+                        },
+                        {
+                            "type": "text",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "maxLength": 4096,
+                                    "minLength": 1,
+                                    "errorMsg": "Maximum length allowed for host is 4096"
+                                },
+                                {
+                                    "pattern": "^[a-zA-Z0-9:][a-zA-Z0-9\\.\\-:]+$",
+                                    "errorMsg": "Proxy Host is invalid",
+                                    "type": "regex"
+                                }
+                            ],
+                            "field": "proxy_url",
+                            "label": "Proxy Host",
+                            "required": true,
+                            "options": {
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "validators": [
+                                {
+                                    "type": "number",
+                                    "range": [
+                                        1,
+                                        65535
+                                    ]
+                                }
+                            ],
+                            "field": "proxy_port",
+                            "label": "Proxy Port",
+                            "required": true,
+                            "options": {
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "maxLength": 50,
+                                    "minLength": 0,
+                                    "errorMsg": "Maximum length allowed for username is 50"
+                                }
+                            ],
+                            "field": "proxy_username",
+                            "label": "Proxy Username"
+                        },
+                        {
+                            "type": "text",
+                            "encrypted": true,
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "maxLength": 8192,
+                                    "minLength": 0,
+                                    "errorMsg": "Maximum length allowed for password is 8192"
+                                }
+                            ],
+                            "field": "proxy_password",
+                            "label": "Proxy Password"
+                        },
+                        {
+                            "type": "checkbox",
+                            "field": "proxy_rdns",
+                            "label": "Use Proxy for DNS Resolution"
+                        },
+                        {
+                            "type": "singleSelect",
+                            "options": {
+                                "disableSearch": true,
+                                "autoCompleteFields": [
+                                    {
+                                        "value": "http",
+                                        "label": "http"
+                                    },
+                                    {
+                                        "value": "socks5",
+                                        "label": "socks5"
+                                    }
+                                ]
+                            },
+                            "defaultValue": "http",
+                            "field": "proxy_type",
+                            "label": "Proxy Type",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "entity": [
+                        {
+                            "type": "singleSelect",
+                            "label": "Log level",
+                            "help": "(DEBUG, INFO, WARN, ERROR or CRITICAL)",
+                            "defaultValue": "INFO",
+                            "field": "loglevel",
+                            "required": true,
+                            "options": {
+                                "autoCompleteFields": [
+                                    {
+                                        "value": "DEBUG",
+                                        "label": "DEBUG"
+                                    },
+                                    {
+                                        "value": "INFO",
+                                        "label": "INFO"
+                                    },
+                                    {
+                                        "value": "WARN",
+                                        "label": "WARNING"
+                                    },
+                                    {
+                                        "value": "ERROR",
+                                        "label": "ERROR"
+                                    },
+                                    {
+                                        "value": "CRITICAL",
+                                        "label": "CRITICAL"
+                                    }
+                                ],
+                                "disableSearch": true
+                            }
+                        }
+                    ],
+                    "name": "logging",
+                    "title": "Logging"
+                }
+            ],
+            "title": "Configuration",
+            "description": "Set up your add-on"
+        },
+        "inputs": {
+            "table": {
+                "actions": [
+                    "edit",
+                    "enable",
+                    "delete",
+                    "clone"
+                ],
+                "header": [
+                    {
+                        "label": "Name",
+                        "field": "name"
+                    },
+                    {
+                        "label": "Account",
+                        "field": "account"
+                    },
+                    {
+                        "label": "Interval",
+                        "field": "interval"
+                    },
+                    {
+                        "label": "Index",
+                        "field": "index"
+                    },
+                    {
+                        "label": "Status",
+                        "field": "disabled",
+                        "mapping": {
+                            "false": "Enabled",
+                            "true": "Disabled"
+                        }
+                    }
+                ],
+                "moreInfo": [
+                    {
+                        "label": "Input name",
+                        "field": "name"
+                    },
+                    {
+                        "label": "Account",
+                        "field": "account"
+                    },
+                    {
+                        "label": "Endpoint",
+                        "field": "rest_endpoint"
+                    },
+                    {
+                        "label": "Interval",
+                        "field": "interval"
+                    },
+                    {
+                        "label": "Index",
+                        "field": "index"
+                    },
+                    {
+                        "label": "Organization Name",
+                        "field": "org_name"
+                    },
+                    {
+                        "label": "Enterprise Name",
+                        "field": "enterprises_name"
+                    },
+                    {
+                        "label": "Input Type",
+                        "field": "input_type"
+                    }
+                ]
+            },
+            "description": "",
+            "services": [
+                {
+                    "hook": {
+                        "src": "input_hook",
+                        "type": "external"
+                    },
+                    "entity": [
+                        {
+                            "type": "text",
+                            "label": "Name",
+                            "required": true,
+                            "help": "Enter a unique name for the input",
+                            "validators": [
+                                {
+                                    "type": "regex",
+                                    "errorMsg": "Input Name should not contain whitespace and must start with a letter and followed by alphabetic letters, digits or underscores.",
+                                    "pattern": "^[a-zA-Z]\\w*$"
+                                },
+                                {
+                                    "type": "string",
+                                    "maxLength": 100,
+                                    "errorMsg": "Maximum length allowed for name is 100",
+                                    "minLength": 1
+                                }
+                            ],
+                            "field": "name",
+                            "options": {
+                                "disableonEdit": true,
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Input Type",
+                            "required": false,
+                            "help": "Type of Input",
+                            "field": "input_type",
+                            "defaultValue": "GitHub Audit Input",
+                            "options": {
+                                "display": false
+                            }
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "Event Type",
+                            "required": true,
+                            "help": "Select type of the events to be ingested (web,git,all)",
+                            "field": "events_type",
+                            "defaultValue": "web",
+                            "options": {
+                                "disableSearch": true,
+                                "autoCompleteFields": [
+                                    {
+                                        "value": "web",
+                                        "label": "Web"
+                                    },
+                                    {
+                                        "value": "git",
+                                        "label": "Git"
+                                    },
+                                    {
+                                        "value": "all",
+                                        "label": "All"
+                                    }
+                                ],
+                                "display": true
+                            }
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "Account Type",
+                            "required": false,
+                            "help": "Select type of the account for which events will be ingested",
+                            "field": "account_type",
+                            "defaultValue": "orgs",
+                            "options": {
+                                "disableSearch": true,
+                                "autoCompleteFields": [
+                                    {
+                                        "value": "orgs",
+                                        "label": "Organization"
+                                    },
+                                    {
+                                        "value": "enterprises",
+                                        "label": "Enterprise"
+                                    }
+                                ],
+                                "display": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Organization Name",
+                            "required": false,
+                            "help": "Enter name of the Organization",
+                            "field": "org_name",
+                            "options": {
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Enterprise Name",
+                            "required": false,
+                            "help": "Enter name of the Enterprise",
+                            "field": "enterprises_name",
+                            "options": {
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "GitHub Account",
+                            "options": {
+                                "referenceName": "account"
+                            },
+                            "field": "account",
+                            "required": true
+                        },
+                        {
+                            "type": "text",
+                            "label": "Interval",
+                            "required": true,
+                            "help": "Time interval of the data input, in seconds.",
+                            "options": {
+                                "placeholder": "Required"
+                            },
+                            "validators": [
+                                {
+                                    "type": "number",
+                                    "range": [
+                                        1,
+                                        31536000
+                                    ]
+                                },
+                                {
+                                    "type": "regex",
+                                    "errorMsg": "Field Interval must be an integer",
+                                    "pattern": "^\\d+$"
+                                }
+                            ],
+                            "field": "interval"
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "Index",
+                            "defaultValue": "default",
+                            "required": true,
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "maxLength": 80,
+                                    "errorMsg": "Maximum length allowed for index is 80",
+                                    "minLength": 1
+                                }
+                            ],
+                            "field": "index",
+                            "options": {
+                                "createSearchChoice": true,
+                                "endpointUrl": "data/indexes",
+                                "denyList": "^_.*$"
+                            }
+                        }
+                    ],
+                    "name": "github_audit_input",
+                    "title": "GitHub Audit Input"
+                },
+                {
+                    "entity": [
+                        {
+                            "type": "text",
+                            "label": "Name",
+                            "required": true,
+                            "help": "Enter a unique name for the input",
+                            "validators": [
+                                {
+                                    "type": "regex",
+                                    "errorMsg": "Input Name should not contain whitespace and must start with a letter and followed by alphabetic letters, digits or underscores.",
+                                    "pattern": "^[a-zA-Z]\\w*$"
+                                },
+                                {
+                                    "type": "string",
+                                    "maxLength": 100,
+                                    "errorMsg": "Maximum length allowed for name is 100",
+                                    "minLength": 1
+                                }
+                            ],
+                            "field": "name",
+                            "options": {
+                                "disableonEdit": true,
+                                "placeholder": "Required"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Input Type",
+                            "required": false,
+                            "help": "Type of Input",
+                            "field": "input_type",
+                            "defaultValue": "GitHub User Input",
+                            "options": {
+                                "display": false
+                            }
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "GitHub Account",
+                            "options": {
+                                "referenceName": "account"
+                            },
+                            "field": "account",
+                            "required": true
+                        },
+                        {
+                            "type": "text",
+                            "label": "Organization Name",
+                            "required": true,
+                            "help": "Enter valid organization name",
+                            "field": "org_name",
+                            "options": {
+                                "placeholder": "Required"
+                            },
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 80,
+                                    "errorMsg": "Max length of text input is 80"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "label": "Interval",
+                            "required": true,
+                            "help": "Time interval of the data input, in seconds.",
+                            "defaultValue": 86400,
+                            "validators": [
+                                {
+                                    "type": "number",
+                                    "range": [
+                                        1,
+                                        31536000
+                                    ]
+                                },
+                                {
+                                    "type": "regex",
+                                    "errorMsg": "Field Interval must be an integer",
+                                    "pattern": "^\\d+$"
+                                }
+                            ],
+                            "field": "interval"
+                        },
+                        {
+                            "type": "singleSelect",
+                            "label": "Index",
+                            "defaultValue": "default",
+                            "required": true,
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "maxLength": 80,
+                                    "errorMsg": "Maximum length allowed for index is 80",
+                                    "minLength": 1
+                                }
+                            ],
+                            "field": "index",
+                            "options": {
+                                "createSearchChoice": true,
+                                "endpointUrl": "data/indexes",
+                                "denyList": "^_.*$"
+                            }
+                        }
+                    ],
+                    "name": "github_user_input",
+                    "title": "GitHub User Input"
+                }
+            ],
+            "title": "Inputs"
+        }
+    },
+    "meta": {
+        "version": "2.2.0",
+        "displayName": "Splunk_TA_github",
+        "restRoot": "Splunk_TA_github",
+        "name": "Splunk_TA_github",
+        "schemaVersion": "0.0.3"
+    }
+}

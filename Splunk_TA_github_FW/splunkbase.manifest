@@ -1,0 +1,1537 @@
+{
+  "version": "1.0",
+  "date": "2023-09-25T18:08:52.795548308Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 6254,
+    "version": "2.2.0",
+    "files": [
+      {
+        "path": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+        "hash": "37906d637abbbeca35cfb2efcb658cabbc0208d101848372c1e55fbf9ba62e47"
+      },
+      {
+        "path": "README/inputs.conf.spec",
+        "hash": "5382bfc2a283a921cc5f691024fb4964e4d09991e5ff13070553baa52f520ffa"
+      },
+      {
+        "path": "README/splunk_ta_github_account.conf.spec",
+        "hash": "074ed402dcce98b3fcd527becf5444af79ddfad8b0c0ad1545bff3b050b808e2"
+      },
+      {
+        "path": "README/splunk_ta_github_settings.conf.spec",
+        "hash": "92185f7f1b08d8aeec9c09c3b2d7092acf2f830a1825e35b9eff560d5dcd33f4"
+      },
+      {
+        "path": "README.txt",
+        "hash": "3753bd85e6dcc0d37141977ee96ff21bc5bcdbe8739b2a83fad9764a6ae15d81"
+      },
+      {
+        "path": "THIRDPARTY",
+        "hash": "3234f39f2e9492e0ee8d1035a9265d63aa3642631059914920ad6ad73b31ac52"
+      },
+      {
+        "path": "VERSION",
+        "hash": "00b8c6ccdef45bd9ee7227254a598eeb2bce1eaa8f76a6e6a26ab8cee16fa277"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "72bf0c3e9b46589fbbb3c71768f31f2f51782f942eb4da26db06541617f92799"
+      },
+      {
+        "path": "appserver/static/js/build/354.js",
+        "hash": "f6958d66243320c21626f5f031dc6569af2e36ecae318cbf19d33564c4c577f4"
+      },
+      {
+        "path": "appserver/static/js/build/354.licenses.txt",
+        "hash": "96d904e13fe70cac685136c9d7d047fe1b46fd88d09c3a757c83ec9d24038c0e"
+      },
+      {
+        "path": "appserver/static/js/build/556.js",
+        "hash": "f816513c7b2b575d66aaba12fdeb07be3a85f4c6de49ff1863235316f58f6b39"
+      },
+      {
+        "path": "appserver/static/js/build/656.js",
+        "hash": "97412920189bd15b5f3e8bd5d3be6c43f42ca89a57b54da5f934b1e79bb2942d"
+      },
+      {
+        "path": "appserver/static/js/build/656.js.LICENSE.txt",
+        "hash": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2"
+      },
+      {
+        "path": "appserver/static/js/build/656.licenses.txt",
+        "hash": "96d904e13fe70cac685136c9d7d047fe1b46fd88d09c3a757c83ec9d24038c0e"
+      },
+      {
+        "path": "appserver/static/js/build/776.js",
+        "hash": "062a410d5b97b34d1e15eca05b6fb619b11b437c06d0eea6e93c47ba42709eb9"
+      },
+      {
+        "path": "appserver/static/js/build/776.licenses.txt",
+        "hash": "96d904e13fe70cac685136c9d7d047fe1b46fd88d09c3a757c83ec9d24038c0e"
+      },
+      {
+        "path": "appserver/static/js/build/895.js",
+        "hash": "4ee7e2b54717475ef592f639b4adf39099a7449096719b8a7cfd323a51db7475"
+      },
+      {
+        "path": "appserver/static/js/build/custom/input_hook.js",
+        "hash": "36e82f7c023933f5811b45306503b395ba12ef05a40bdfbe532981433130276c"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.js",
+        "hash": "e6fd9241112ec127e3a305cecf35a8355d5804211d24c3c9ad5564f647a05942"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.js.LICENSE.txt",
+        "hash": "dc9bd9d399590fcd12e20cc8b59e78a268e5fe76708ff135f0b51f628cab9cb5"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.licenses.txt",
+        "hash": "9a9009d5d693e86bf85f75ced3cc17fb42f386249dda24b6f613f0f1e37a2edc"
+      },
+      {
+        "path": "appserver/static/js/build/globalConfig.json",
+        "hash": "c63d36f213a86cba2747798a1452cad14130a693878c276319f47fd4f762651e"
+      },
+      {
+        "path": "appserver/static/js/dependencies.txt",
+        "hash": "c1900b867abf7949cf02f0ee6643bd1f3d3ed10befa11b9c7fb524c6927d2fa5"
+      },
+      {
+        "path": "appserver/templates/base.html",
+        "hash": "b28de400d33417f3bdbdeb2804483f823c512b34e1e371cab85a93e16945e49c"
+      },
+      {
+        "path": "bin/Splunk_TA_github_account_validator.py",
+        "hash": "64bbbcd18586d7c21d5077ebf49fbe6cd4faeacd975de3ca838cd9209dbf6764"
+      },
+      {
+        "path": "bin/Splunk_TA_github_connect.py",
+        "hash": "297f30a4a26551efcd128bfcebbb9492fba972657a98bb11675c6c0cb882252e"
+      },
+      {
+        "path": "bin/Splunk_TA_github_rh_account.py",
+        "hash": "caa848b0a315926f86fc842968bba662d18649c99a41215788a47127075e977d"
+      },
+      {
+        "path": "bin/Splunk_TA_github_rh_github_audit_input.py",
+        "hash": "503d3fa84e620ddbcd487930ced64ceeea748bc85ed15b6b82f66e98ff0e56bd"
+      },
+      {
+        "path": "bin/Splunk_TA_github_rh_github_user_input.py",
+        "hash": "0672f2224f6b74be039b5adda435fd359e582c0d241688688584397c6c3ba1f9"
+      },
+      {
+        "path": "bin/Splunk_TA_github_rh_proxy_validation.py",
+        "hash": "0d63915b1799c8814eefb026241d4335be9a9082e2c42588dd0b9d6d139320c9"
+      },
+      {
+        "path": "bin/Splunk_TA_github_rh_settings.py",
+        "hash": "0b10d3f8f7bf09f4d51da062269a3bff5dffcb121914c8308c227f52d4d2dd02"
+      },
+      {
+        "path": "bin/Splunk_TA_github_utils.py",
+        "hash": "069412df31fa8af49db4a0d56b55e8eb03a9995ddbf19d45e813ea9b73976a1f"
+      },
+      {
+        "path": "bin/github_audit_input.py",
+        "hash": "06e60cd5946ff1d723e20bae58f2a7910fbca7781ee0d64a904090379b9f5892"
+      },
+      {
+        "path": "bin/github_user_input.py",
+        "hash": "0ce0491ea856d4fadb8daca14da5ed77f21eee8acd3dcf173d7829098492cf24"
+      },
+      {
+        "path": "bin/import_declare_test.py",
+        "hash": "4945e9006a748cfbc037c1dd05bf67d81c6ac91b4ac858ee7c3353c5030cf5c3"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "5b8c748235c9db663483784f5ad8969dfcbed6a84b8bb0e7555348fef007c7b5"
+      },
+      {
+        "path": "default/collections.conf",
+        "hash": "b31150ad78323c96fba0cec4a8a6279b2c9ed1d762fb15ffb49038bf36f4fefe"
+      },
+      {
+        "path": "default/data/ui/nav/default.xml",
+        "hash": "b3283bf155e4657dce263bfe06a55142d0157e5795b7a204a0ee97d09cbde969"
+      },
+      {
+        "path": "default/data/ui/views/configuration.xml",
+        "hash": "59e6e4f4b49b2b1ce556aa6b92cafa5fe5fdba5062e8fc18901b77cbbba9d142"
+      },
+      {
+        "path": "default/data/ui/views/inputs.xml",
+        "hash": "95899b1902bd9e37c2e3c5e07456c321bdd3926f908ab36d079decb63cb0ff12"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "45c9a716e0e2dd7d049e8988806d9369011248c5e8d61773da128cd1f77d34d3"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "d40bd0ced89a8360e79777dfa987b1c3d8b9a7f511ebf28330078fb673af2adf"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "52cb43c9e3859091fd0f1182f11c276dac9b3e5ba0f4a3cdb8981de1efc7d602"
+      },
+      {
+        "path": "default/restmap.conf",
+        "hash": "8cc55ef2f5aab88268109d86fc992b4252990c0cdf74f4cab71ffcf40ab65a09"
+      },
+      {
+        "path": "default/server.conf",
+        "hash": "132e5474fbb6310ba9ea354ad2e6a6b44e404fb4c67a3725348c8cfd4effd9d8"
+      },
+      {
+        "path": "default/splunk_ta_github_settings.conf",
+        "hash": "5911f1918d0512c9c342927a4cbba437ee0d25cd640281cf63f454c546bdf96f"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "84cbe5c460ad22beb1ae946a4584366a0e19cf5f4d1cc0685b6372658bdd713e"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "9cc4b36bffd030de1a0f4aa29f67bd05554d18c3493d8aa90b1da1e0e841a982"
+      },
+      {
+        "path": "default/web.conf",
+        "hash": "4aba141e6c52e574233bc3b825958e639695f28a64aecb9b8648a3482b38b51b"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/LICENSE",
+        "hash": "7027e214e014eb78b7adcc1ceda5aca713a79fc4f6a0c52c9da5b3e707e6ffe9"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/METADATA",
+        "hash": "cdb40c8b38cf38e3f80e1122117db85d78cdad8b88c45f54194a4dd2e14307a6"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/RECORD",
+        "hash": "4d1e8ec337ac704cc51b7dcab604a3b489948ab600cc5084e0670d78316565ba"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/WHEEL",
+        "hash": "b7f329029bf7f3afbc3d5b6cd91eb0b1389f7489f4bdb5034d5bfad486ea142f"
+      },
+      {
+        "path": "lib/PySocks-1.7.1.dist-info/top_level.txt",
+        "hash": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39"
+      },
+      {
+        "path": "lib/certifi/__init__.py",
+        "hash": "6cafe79bd6cb27336f599736a197624f08362960f81d23c158668cd33503bccc"
+      },
+      {
+        "path": "lib/certifi/__main__.py",
+        "hash": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758"
+      },
+      {
+        "path": "lib/certifi/cacert.pem",
+        "hash": "2c11c3ce08ffc40d390319c72bc10d4f908e9c634494d65ed2cbc550731fd524"
+      },
+      {
+        "path": "lib/certifi/core.py",
+        "hash": "9617b0cf4cc56f66f850bb10bab1259a5a18c10a1e7235b33ea63aecff13ee23"
+      },
+      {
+        "path": "lib/certifi/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/LICENSE",
+        "hash": "a02f6c638f9fb84d06f7764c3ab085d8af7eda5b93c166da54312479077c6fb0"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/METADATA",
+        "hash": "7211697312a108f110dddf3e573dfacebd8c89c7f579084a905164eff26f24da"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/RECORD",
+        "hash": "1f62b21eb840c3aaaef3b4bd8e9d8ff6f6dc8bcb64286bdff3ac47262da51b88"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/WHEEL",
+        "hash": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda"
+      },
+      {
+        "path": "lib/certifi-2022.12.7.dist-info/top_level.txt",
+        "hash": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5"
+      },
+      {
+        "path": "lib/charset_normalizer/__init__.py",
+        "hash": "c76036396dbd30172a771b2fcbab75c33914947de66b482ec4be9909f4bc27de"
+      },
+      {
+        "path": "lib/charset_normalizer/api.py",
+        "hash": "afffd6cfce45e6960e911c046398a65d8fe9099d8d8a5d4391d680258ed3e68d"
+      },
+      {
+        "path": "lib/charset_normalizer/assets/__init__.py",
+        "hash": "14f9df93c96299945bf1921441c4ef3c471bb8cd5ea8e7561b0d2f6d61b2703b"
+      },
+      {
+        "path": "lib/charset_normalizer/cd.py",
+        "hash": "6bd2b3cddf6d1e5fd6d3c1316c214c99126a768da4ec4050f19ff7cbd0e662c8"
+      },
+      {
+        "path": "lib/charset_normalizer/cli/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/charset_normalizer/cli/normalizer.py",
+        "hash": "2e4785211735976f2b3a05e911bcbaf79c746dc290bf80fccfd1660376767370"
+      },
+      {
+        "path": "lib/charset_normalizer/constant.py",
+        "hash": "e75bbf452d74235bd856905aa3fff11ea7fef871cdad1ea67b5035b1ee6be58d"
+      },
+      {
+        "path": "lib/charset_normalizer/legacy.py",
+        "hash": "5ca7993adb3f1dd61053f25bdc2f597ce8d8d828942f5df693dfe75deafc8228"
+      },
+      {
+        "path": "lib/charset_normalizer/md.py",
+        "hash": "584c27bb633222231e11aa2b45dbaa713c468c805c956206de2fbdfd42fa2cbb"
+      },
+      {
+        "path": "lib/charset_normalizer/models.py",
+        "hash": "5eb1a95717e89e1722948582d567a23f7f993911847bf446dec82b7cf2e5f6a3"
+      },
+      {
+        "path": "lib/charset_normalizer/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/charset_normalizer/utils.py",
+        "hash": "01648bd33d41e3623074b7e35f864c01203d71352c4e9d0fc1e09d5bdf1223ee"
+      },
+      {
+        "path": "lib/charset_normalizer/version.py",
+        "hash": "bb13b6713d1821abd0bf875094d1a61cf20e3b039af9ec6ca715e2dc847b75c9"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/LICENSE",
+        "hash": "eb31a0c5a4fb09b8a4e32055d25c1e5f9c358a2752fef3cd720213d1ccfee241"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/METADATA",
+        "hash": "797f94decee76fac1cbd7645c8cd667417f5cb3e08d26b1506036f2c4b1c01ba"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/RECORD",
+        "hash": "f7a7dafed94c3ca6089f3c5ac3ca062889bb2d5f07b93cf60088ce39eab168db"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/WHEEL",
+        "hash": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/entry_points.txt",
+        "hash": "e4026afc43ed18653024f8102e70597db56bf856022304f4c4fedd20464edcd2"
+      },
+      {
+        "path": "lib/charset_normalizer-2.0.12.dist-info/top_level.txt",
+        "hash": "ec04b2cde3ebf3fc6e65626c9ea263201b7257cbe1128d30042bf530f4518b74"
+      },
+      {
+        "path": "lib/defusedxml/ElementTree.py",
+        "hash": "18b4aaa42cf9f285c63c6cb37ff1f296c3d2f7f75c1953f948de1d2bbcafc8fc"
+      },
+      {
+        "path": "lib/defusedxml/__init__.py",
+        "hash": "45ccde695246eb8a76160cb58e50b36ee45d72110f9c468206bc6093c249fe93"
+      },
+      {
+        "path": "lib/defusedxml/cElementTree.py",
+        "hash": "3e968a321deb536f6c63c6a600ae1fcc740a97c81c0180f48752c2a16eb646d9"
+      },
+      {
+        "path": "lib/defusedxml/common.py",
+        "hash": "ddddba8cd5b87cd5f38235a1bd47ecf3701f8b3e44571143ba941bba09123197"
+      },
+      {
+        "path": "lib/defusedxml/expatbuilder.py",
+        "hash": "6f8434e6fb01309e52b6489315fe26cb6ac61a8d60672125fe10b931e1533800"
+      },
+      {
+        "path": "lib/defusedxml/expatreader.py",
+        "hash": "28ea52af0912be3e5218e63da535ce336e839f3d34aec26ddf75ae795bf3a6f7"
+      },
+      {
+        "path": "lib/defusedxml/lxml.py",
+        "hash": "1d6f8b14a76b7cc4731dd8b455cb9cab8fa7f32cfbbff390c04416160d494180"
+      },
+      {
+        "path": "lib/defusedxml/minidom.py",
+        "hash": "dd0720ca057026a7160d0dc86768a897ccec1f8731dc1457ef448f71dd1b1b68"
+      },
+      {
+        "path": "lib/defusedxml/pulldom.py",
+        "hash": "0d88f60f695cef1a31677f207f3ba35e67739ddf28bf30ea1855eac976edc639"
+      },
+      {
+        "path": "lib/defusedxml/sax.py",
+        "hash": "f92174f0cb1cda6584600330eb6a49e4533059c70e72d1529d0c032d82cb9551"
+      },
+      {
+        "path": "lib/defusedxml/xmlrpc.py",
+        "hash": "eeb6507b2deda9771cd61aeb337469ace20253a7e2167cbd07d9789e64e2a310"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/LICENSE",
+        "hash": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/METADATA",
+        "hash": "369d3cef64870daf849fba711cb8d05a7efe3c8d9ab0f763adc34079fe378bb1"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/RECORD",
+        "hash": "ee0a2c1ad8c27214a50a04599f06bde69a002e18c34b2bb928bcaa4e75944ef3"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/WHEEL",
+        "hash": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046"
+      },
+      {
+        "path": "lib/defusedxml-0.7.1.dist-info/top_level.txt",
+        "hash": "4061daf74179d2954a856485944448d23b522ada83886c9f7995fb750359000c"
+      },
+      {
+        "path": "lib/idna/__init__.py",
+        "hash": "28940dd5e401afc8882b948aac9e3b957bf11b4049ecb9b7f16e334f4bfff259"
+      },
+      {
+        "path": "lib/idna/codec.py",
+        "hash": "ea5cb9a1d29faabcad293f7fed4ae51a49479dfd4348adabf42e9c48ce2c6b6f"
+      },
+      {
+        "path": "lib/idna/compat.py",
+        "hash": "d3fb0e114313e02570f5da03defc91857f345f5f4fc2a168501b3b816b05304e"
+      },
+      {
+        "path": "lib/idna/core.py",
+        "hash": "44522463e1e1159683a011058c6c3219dfef588d38b8e0108e7cee78c5aac0e5"
+      },
+      {
+        "path": "lib/idna/idnadata.py",
+        "hash": "7f333390279adb189e57172b8e7809fb6a4bb0a40d7a33c26459416a322e41dc"
+      },
+      {
+        "path": "lib/idna/intranges.py",
+        "hash": "601af87d162e587ee44ca4b6b579458ccdb8645d4f76f722afe6b2c278889ea8"
+      },
+      {
+        "path": "lib/idna/package_data.py",
+        "hash": "b33c50855d190f49ca27ce0aba86f0de5f2ae3f29e0b25e3151769c08a4a666c"
+      },
+      {
+        "path": "lib/idna/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/idna/uts46data.py",
+        "hash": "a3e0fb57e6b47ce2d935deedbf1a1fe8c61f51dd13059cc4d9b2d1e573baef15"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/LICENSE.md",
+        "hash": "a2d6e4d940bd24dbe7b9645cde19a9792cc51db7ae0d5acd301ac860caa3e836"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/METADATA",
+        "hash": "05daa201ff28bb8c759f3207a76fec0df5d68e5ec1ad2506a4e795cdb60742e4"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/RECORD",
+        "hash": "07c496df1625e2c71b26ee491ad5fbcae457b64d60889c60f57d5a549c99e1d0"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/WHEEL",
+        "hash": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda"
+      },
+      {
+        "path": "lib/idna-3.3.dist-info/top_level.txt",
+        "hash": "8d26a0f6c103aaf48f7edc4e432f8005f195fd14b2ee8161e33649a4e0d5f24d"
+      },
+      {
+        "path": "lib/requests/__init__.py",
+        "hash": "2ef98a863233f261da297b610b632fe72919d5df76be8c9fde826977e56e0228"
+      },
+      {
+        "path": "lib/requests/__version__.py",
+        "hash": "b2c237133b7b3dac6090e5b8e4686dc0f51c968fd23bfca0b489b803be0839fc"
+      },
+      {
+        "path": "lib/requests/_internal_utils.py",
+        "hash": "9cc4329abe21b37d93a95a3901b0ab99c24486f3d487bc57965bb2ab0b252e24"
+      },
+      {
+        "path": "lib/requests/adapters.py",
+        "hash": "bff1668d4e4a67bea4f98b6d4a1658079469ac8ce184bf18df3816f69e1e050f"
+      },
+      {
+        "path": "lib/requests/api.py",
+        "hash": "abad71717ab8b668889abbdc4952d36c5c82883d85f8bffe8562866f3e32f2f8"
+      },
+      {
+        "path": "lib/requests/auth.py",
+        "hash": "87e1cb955c7d8fcaca57985f480c9c3f60293928254f3efb474b73eea09b6c41"
+      },
+      {
+        "path": "lib/requests/certs.py",
+        "hash": "67d49be35d009efea35054f2b2cd23145854eb1b2df1cb442ea7f2f04bf6de0c"
+      },
+      {
+        "path": "lib/requests/compat.py",
+        "hash": "cb19ed54e4841c632b9fb14daffdf61046a6d5934074f45d484d77ff2687cd39"
+      },
+      {
+        "path": "lib/requests/cookies.py",
+        "hash": "903de43447028fe9b16ed7f97c9b12693f3a786a046290f75f4092829ce5ec13"
+      },
+      {
+        "path": "lib/requests/exceptions.py",
+        "hash": "0e1bde1417255634d1c6145db95a4ef866cc60c203da09a374b7cd12a36923f5"
+      },
+      {
+        "path": "lib/requests/help.py",
+        "hash": "80f5f977f1fb5ddf3c6830017a386a1a097d075545453b79066898bcbdcfcc84"
+      },
+      {
+        "path": "lib/requests/hooks.py",
+        "hash": "0a2bb2b221c0dfd57951f702057148c7cdc8ac3a6ec1f37d45c4d482fdbc7ed4"
+      },
+      {
+        "path": "lib/requests/models.py",
+        "hash": "f8394a8b4a2bf2014033a573bada1b5efbc15bfdb0ac9b8e17935f9dd4c875d0"
+      },
+      {
+        "path": "lib/requests/packages.py",
+        "hash": "0d782ff852487336484e6bf4bc40408568f85bee4218220dfe4b2f811d7b0efb"
+      },
+      {
+        "path": "lib/requests/sessions.py",
+        "hash": "f8bbd3ceb3ed7ad493ad1ddbbb1bb85e176032b2452c1d6ae43ecffbe2f65e1c"
+      },
+      {
+        "path": "lib/requests/status_codes.py",
+        "hash": "16f1e64f9b87fbfba29ad473e611fd5426eded557e35e8b627dba96de8fa8fc8"
+      },
+      {
+        "path": "lib/requests/structures.py",
+        "hash": "f886e6855cf4e92fb968f499b94b6167afba0fd5ce8d1b935c739a6d8d38d573"
+      },
+      {
+        "path": "lib/requests/utils.py",
+        "hash": "eacc765f7708540f018163a0f28771172fbf95b5831444d4f072387d4e119aac"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/LICENSE",
+        "hash": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/METADATA",
+        "hash": "7823e890e9db6f415138badf9744791290ef76e7ec6fd09a3789e8247fffe782"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/RECORD",
+        "hash": "a4970177f2149231dd49b36fb1c8d8ae67850e1fac18fb526e86495c54613db1"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/WHEEL",
+        "hash": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f"
+      },
+      {
+        "path": "lib/requests-2.31.0.dist-info/top_level.txt",
+        "hash": "7cc4959877dbe6b6c63a8eb1bfe3bfb545fa8fe5b28b1b2c13e4a7c1c0d1c4d4"
+      },
+      {
+        "path": "lib/requirements.txt",
+        "hash": "23cc375d64ee600d1779d146cfd4396edaa4f48a8f9b54cb3f29dae847745e29"
+      },
+      {
+        "path": "lib/socks.py",
+        "hash": "c4e627dbbb7d206adb4c1cd6b1452e3dad1806ea6582253293390e0795798856"
+      },
+      {
+        "path": "lib/sockshandler.py",
+        "hash": "d926068fea70b7592380ba19026c9e6845c27990d64667d54bf406ea412b1ad6"
+      },
+      {
+        "path": "lib/solnlib/__init__.py",
+        "hash": "ce13a5af56ce4eee680d49cafac1ca6574cda893e63dabebd73c20a439a591dd"
+      },
+      {
+        "path": "lib/solnlib/_utils.py",
+        "hash": "83c739b0b70a62db1d2437fcc5fb9f4317847f5e778455c0f379aac35ede36b8"
+      },
+      {
+        "path": "lib/solnlib/acl.py",
+        "hash": "58b7bb5fb94189a191b544aa3a650aab7f19d2432764bf7f7cfc795e75ddfc8e"
+      },
+      {
+        "path": "lib/solnlib/conf_manager.py",
+        "hash": "ce9ccd484d68717ac15cf85dfbf662a6bda62dfecccb68b1e9ef48b4cb1dd3ca"
+      },
+      {
+        "path": "lib/solnlib/credentials.py",
+        "hash": "f26af4b7f6f1cfcc0ab7f64888592a2b17240dac5186464a3f6438f011da843f"
+      },
+      {
+        "path": "lib/solnlib/file_monitor.py",
+        "hash": "2d10cd3ad171cfcdc021c5ab866a2b3cebf52685af8e977a02db8ce7fca77a6d"
+      },
+      {
+        "path": "lib/solnlib/hec_config.py",
+        "hash": "d50b857ce9a9200a1f5550b636f0a8e07beb7bc60447b46102b8838ccbf4b032"
+      },
+      {
+        "path": "lib/solnlib/log.py",
+        "hash": "9b475e3e34b8ac8a036cad34d89a9eb9fdc556f6a5d1f5efff67d93fd30a13b1"
+      },
+      {
+        "path": "lib/solnlib/modular_input/__init__.py",
+        "hash": "967d0ba9fe7929f219503632eefcd03af0ba639fc9d6f492ecdd4acdb3b4e103"
+      },
+      {
+        "path": "lib/solnlib/modular_input/checkpointer.py",
+        "hash": "f97db677792a62baa2c9e7f0de442d73f21e4130ea693c3488a73d65189c2e26"
+      },
+      {
+        "path": "lib/solnlib/modular_input/event.py",
+        "hash": "5e092540fc0f9894d19f5272390e8ac7538021fe9965f700f0d9ada852d6452b"
+      },
+      {
+        "path": "lib/solnlib/modular_input/event_writer.py",
+        "hash": "23ad520436634d7843301942a5ccb61d2584d3bcf00f0cd3075862171bc3073b"
+      },
+      {
+        "path": "lib/solnlib/modular_input/modular_input.py",
+        "hash": "3634d76976760105d882157439ecf001009d74b83da0d1f6b99a8d168b1b7845"
+      },
+      {
+        "path": "lib/solnlib/net_utils.py",
+        "hash": "8056a914a2f6aeb9ff5036a39bbe8d59afdd7c06282a3176c94aafdcbbc1e404"
+      },
+      {
+        "path": "lib/solnlib/orphan_process_monitor.py",
+        "hash": "7afa3cc8f1fabdda0a8e594df9c07a919864c0c902be1afe76b97ce7351700b6"
+      },
+      {
+        "path": "lib/solnlib/pattern.py",
+        "hash": "a016a1b63ef156558e69a2cf7aa76ba6e77abd5525d397e1c7aaf661493d21d2"
+      },
+      {
+        "path": "lib/solnlib/server_info.py",
+        "hash": "c60421fd936d1e6f649c25c940c3d955e9ae1b344afa15ce8ebb55f1655b7d53"
+      },
+      {
+        "path": "lib/solnlib/splunk_rest_client.py",
+        "hash": "5a79993c82b2d4f394e0dacf5d3dfbf6d6103b68e19ffce7cd4b0e5edbf98b08"
+      },
+      {
+        "path": "lib/solnlib/splunkenv.py",
+        "hash": "1312fa174e1b0189124e7553a7e974904d721948b3cb0fd0f018326938ebc699"
+      },
+      {
+        "path": "lib/solnlib/time_parser.py",
+        "hash": "5d0930e5e5a8e27cf92a6688bf9cf0f1d41db6ca93893dd19630d8c366982dae"
+      },
+      {
+        "path": "lib/solnlib/timer_queue.py",
+        "hash": "c33a995c9dbfdae297e113e992b89eed0672294e17ba812ffd40557e5f69b87c"
+      },
+      {
+        "path": "lib/solnlib/user_access.py",
+        "hash": "b1499802b3d184f024325b380146c11c3d0a9e2cf754415a358e8d3a844da547"
+      },
+      {
+        "path": "lib/solnlib/utils.py",
+        "hash": "138105bb42d81cc13a6183036df88746759294da6da8636cbc6d8fed81277137"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/LICENSE",
+        "hash": "5efbddf3de03125f255073c478553e61ad7c456ec77362253d3652fdb1371e0b"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/METADATA",
+        "hash": "fb669172d1277ee59c1f75353e72c03bb76671a65c74e7cbb2f4fa3f731a122b"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/RECORD",
+        "hash": "7e9f4b7940d77cbb0432752e59b7b36b20ebfedfda463dea230ba1445eceb098"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/solnlib-4.11.2.dist-info/WHEEL",
+        "hash": "ed9f3fdbbb9a1c8fd4640738528c783e906143d639fe6a1d65758cc6d522e0d5"
+      },
+      {
+        "path": "lib/sortedcontainers/__init__.py",
+        "hash": "5ff5f92ee463bdeefb2b0b8942b0d44aed13f39e7d61ca28c106c09e3b8ced31"
+      },
+      {
+        "path": "lib/sortedcontainers/sorteddict.py",
+        "hash": "cdae4b9c43593063c89ff25912bd12d2d0d77c4b3126c7c49da9e1ea52e54d93"
+      },
+      {
+        "path": "lib/sortedcontainers/sortedlist.py",
+        "hash": "af003574cf1c7b4f5e6f60cc8cb39f1e88a4842c7f45f9399ee13f352b1faf72"
+      },
+      {
+        "path": "lib/sortedcontainers/sortedset.py",
+        "hash": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/LICENSE",
+        "hash": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/METADATA",
+        "hash": "eedf115109e215001e904da0882851beae50b03c0b0161a8b9e74b7cfd679473"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/RECORD",
+        "hash": "c1a90142bf3780ed3a55ee2e3d990bf4db56e5ae28fd133fb78c0aa9d893d882"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/WHEEL",
+        "hash": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046"
+      },
+      {
+        "path": "lib/sortedcontainers-2.4.0.dist-info/top_level.txt",
+        "hash": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/METADATA",
+        "hash": "af395d78e36f0e6d4ae61ef850adbc4c7e005e8926e95df5ed9f452ee4fcf268"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/RECORD",
+        "hash": "3769023d0efcd52e485d56a22b9608b9fbede1c89464cb5229cab2bedd697467"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/WHEEL",
+        "hash": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f"
+      },
+      {
+        "path": "lib/splunk_sdk-1.6.18.dist-info/top_level.txt",
+        "hash": "b5aab66187ce077d6d35e7f05bbdece78c72b6207fb32f1ba5bc8101f9f492bf"
+      },
+      {
+        "path": "lib/splunklib/__init__.py",
+        "hash": "d49f224807a233fdb137db92bc59ea4d3f64ad5541d3ef20519bf12c697c41b0"
+      },
+      {
+        "path": "lib/splunklib/binding.py",
+        "hash": "ba2eb56335b4ccaa588d4add6aacb21ccfe686c86fc91687e7f9866ca2d8f337"
+      },
+      {
+        "path": "lib/splunklib/client.py",
+        "hash": "06e43801082ebaf3e7c87e2de76338ce364604e7f6067f138015c9f515f67ae9"
+      },
+      {
+        "path": "lib/splunklib/data.py",
+        "hash": "2d4c7006186b005851321c225447b0f890d81d00067285a7da58a56636475054"
+      },
+      {
+        "path": "lib/splunklib/modularinput/__init__.py",
+        "hash": "6c7c88d29dc6b41a008db14211bb9489b1052b09c70f267364ec12e05bedd33b"
+      },
+      {
+        "path": "lib/splunklib/modularinput/argument.py",
+        "hash": "386603096d45c3b3ec3328317adc334c7d981a6d5f77312b657c5463207e58d5"
+      },
+      {
+        "path": "lib/splunklib/modularinput/event.py",
+        "hash": "c55fa7dfc338c4553c381def713feef1c965586068e411c658d6174dc7c93889"
+      },
+      {
+        "path": "lib/splunklib/modularinput/event_writer.py",
+        "hash": "775ddbcca70961ac0dd50f92da2b8744e976aa179a5408ae0935b6c0478a6991"
+      },
+      {
+        "path": "lib/splunklib/modularinput/input_definition.py",
+        "hash": "444fd09df04b5c0d8985d12c86f7255734c129ca6963f92d43494e0251943cd7"
+      },
+      {
+        "path": "lib/splunklib/modularinput/scheme.py",
+        "hash": "c25945b449d5f74318f4536b3d1dcea0885dcd55386e5685ece35a11c2f77a44"
+      },
+      {
+        "path": "lib/splunklib/modularinput/script.py",
+        "hash": "61933b50a205b8b924365765180b64f077dbc33675d6e7afd0883cbec315196a"
+      },
+      {
+        "path": "lib/splunklib/modularinput/utils.py",
+        "hash": "83436d75504c83787ccca21a0dfbad8a280043232959de9137ce6daa7a9470c6"
+      },
+      {
+        "path": "lib/splunklib/modularinput/validation_definition.py",
+        "hash": "a2b0f857f8589a9c6db87b2ffc685c3e785c183a079ca31253e2928539940b02"
+      },
+      {
+        "path": "lib/splunklib/ordereddict.py",
+        "hash": "b222ad43a7c540661416297cbe429ac06aac3a11e0cf859161b85bcf1c4cd15d"
+      },
+      {
+        "path": "lib/splunklib/results.py",
+        "hash": "6a6bdb1f77c2940c10c2f4e2d14b97bbde178c04fc9ac82217b4cae724451152"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/__init__.py",
+        "hash": "4499f53209862c3ea6abb43d5b50dc6b648b95cbbd4a349539e159c2f3cf1531"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/decorators.py",
+        "hash": "1114bc1cff0fb06578042bbd2a0b31902e942b0c080458c60d6aea887cb69b50"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/environment.py",
+        "hash": "997e76b662628010e782e22bcefccc1c5bbd5f2b039068ba58d9791ae50a293b"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/eventing_command.py",
+        "hash": "471cbcf2e07de71150d86ab853b7b8e51a1cfb31913355f6cdd7c821b44d87e2"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/external_search_command.py",
+        "hash": "9a5fbfe2a301671fccd0e62209ebc076945904b1bf8a1ee94d1b261256e7d9ad"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/generating_command.py",
+        "hash": "f77c701ed408454225c5d1b6ba126fc64ea89a9e1210b79f33cc2ab1f2a95cd1"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/internals.py",
+        "hash": "6a057ff3bee5c7186ee231eb38cbff2c4e3008cc49f1d72421e8d8cce7951b51"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/reporting_command.py",
+        "hash": "40537218ef844255b4d41c44130e5cec95a1e0801f866dbd4a500a8237edbb26"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/search_command.py",
+        "hash": "fe93e9ffd18967381075d0334e90126c30468ad12b8141f55dce2f57b19eb9e5"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/streaming_command.py",
+        "hash": "aa45695ec34a4125a84c4d592ca26f2bb68f14743274f163f533ffc7bc0b9ed7"
+      },
+      {
+        "path": "lib/splunklib/searchcommands/validators.py",
+        "hash": "817947d71f57af4057da04aa185e8cf663f99edad1027df1b0828ffc1c574fa9"
+      },
+      {
+        "path": "lib/splunklib/six.py",
+        "hash": "43a5af1176750c6100480a370863422642afdad3f2f3191298af951c4f4f6080"
+      },
+      {
+        "path": "lib/splunktalib/__init__.py",
+        "hash": "118daf4494c98f9bb049fada62455e24a72f06742900e6a082c31753b1cf2b8a"
+      },
+      {
+        "path": "lib/splunktalib/common/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktalib/common/consts.py",
+        "hash": "a5bd652926a6f2d55e87ac881fa93f5cde9e1593bba128a1ba394f3cae1229a5"
+      },
+      {
+        "path": "lib/splunktalib/common/log.py",
+        "hash": "25673eedb51b8087ee930a5cf67cd0606a5e409f560894af055a15406c1a7717"
+      },
+      {
+        "path": "lib/splunktalib/common/pattern.py",
+        "hash": "fe3822d6b82d71aa12b6d65313aa552f7ecb1bba135e3fcdd529d5ddc1e1362e"
+      },
+      {
+        "path": "lib/splunktalib/common/util.py",
+        "hash": "1e5cefa694db4d6a10146b452c4927c24591cdbed67a57d0502be7081acc663f"
+      },
+      {
+        "path": "lib/splunktalib/common/xml_dom_parser.py",
+        "hash": "57d6e8ea5d1702bd9a0c266a86ae2b36d02c70a2e1943717696136484964d393"
+      },
+      {
+        "path": "lib/splunktalib/concurrent/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktalib/concurrent/concurrent_executor.py",
+        "hash": "6a5c84c357edec47da411c03f9a5420d40cfa51b2f8667b54a13e2f98c45bd02"
+      },
+      {
+        "path": "lib/splunktalib/concurrent/process_pool.py",
+        "hash": "7352e738c7bd943778baba6403cff2f55e81a7d9ad0bbaf1be4fc4d44fcb2553"
+      },
+      {
+        "path": "lib/splunktalib/concurrent/thread_pool.py",
+        "hash": "d88aa29c02af5254b7444509c72121de3b0ae2a983103acd4c36d6db4cfc0315"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/conf_endpoints.py",
+        "hash": "a0c1bc22024913c20ac2bdbbdcc2bd9a27d87643fc782197943fa2fa32626b46"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/conf_manager.py",
+        "hash": "8d0cbcd734bb3badaa946f22587fa5f74a5ecf5c3b34d72d630e6baa92dcda99"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/data_input_endpoints.py",
+        "hash": "dcf9969c1251abd651b8a771b17cfc47fd3de15b52c65527b325e640298ce10f"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/property_endpoints.py",
+        "hash": "9437e9021275a3366e50f5e4a4e6c96323bc02c5b2da5b9ce972f83313eb7cad"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/request.py",
+        "hash": "5e77dff3c11a8e6d987e24ab9d1dfab45296281fa2c7c4af6f82d8b123429081"
+      },
+      {
+        "path": "lib/splunktalib/conf_manager/ta_conf_manager.py",
+        "hash": "00ace755b8abfba4d1e1de14fcfa93b9b14f44498906d9efd609b6b2843a33d7"
+      },
+      {
+        "path": "lib/splunktalib/credentials.py",
+        "hash": "7592caf3daee6764615595546a5299caaea584872be33e189706121b9342105e"
+      },
+      {
+        "path": "lib/splunktalib/event_writer.py",
+        "hash": "b51b0ca62141f0d57bdfb72bd2910c1dcbf34cd65d9e3f18f9bd3d882863047d"
+      },
+      {
+        "path": "lib/splunktalib/file_monitor.py",
+        "hash": "46d019583fd328947deed30f0fe415285234aca7e631d9f35d65a338ac4a74a9"
+      },
+      {
+        "path": "lib/splunktalib/kv_client.py",
+        "hash": "23397c113691c63fd9dd966ee6f0b2caf0de9d4f6bf6badd3a4df314ff45dbc3"
+      },
+      {
+        "path": "lib/splunktalib/modinput.py",
+        "hash": "54c27225081760a0791ee5afcc7ddb556a956e7747c5eefa81beb2ac3233c5b6"
+      },
+      {
+        "path": "lib/splunktalib/orphan_process_monitor.py",
+        "hash": "0ba84010c5245fcb1a365ccacd343189835cfb42dda43b1e4388f6d56c51a3db"
+      },
+      {
+        "path": "lib/splunktalib/rest.py",
+        "hash": "2ef3f3c85dd8c470af8b7cd588de70946d2f0e0803101c736ca74b138e037761"
+      },
+      {
+        "path": "lib/splunktalib/schedule/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktalib/schedule/job.py",
+        "hash": "3f6518271c9013c6547b67aedb21b8f8f74b1feaf7d2aae39a6749c72d3357ab"
+      },
+      {
+        "path": "lib/splunktalib/schedule/scheduler.py",
+        "hash": "b113c9fb080f5df28e2011437db3d5021db2495b6d6b78aa5a8e6f8e96f91926"
+      },
+      {
+        "path": "lib/splunktalib/setting.conf",
+        "hash": "792b0493d7303da57c31440deb768dd360183cd4a11c0a79a5c379bc21b26a7d"
+      },
+      {
+        "path": "lib/splunktalib/splunk_cluster.py",
+        "hash": "0b1c5b38782b2ae8dbe48a6b7bc28be7c2f736bcf81dd39d7f27eb45d403ead8"
+      },
+      {
+        "path": "lib/splunktalib/splunk_platform.py",
+        "hash": "e6447ceb2d6c1ecb45f9e0b0f3eccfafe28bbd8421dfc6d7b5f58323af9d6c52"
+      },
+      {
+        "path": "lib/splunktalib/state_store.py",
+        "hash": "f8f45deb8e0e5dcdc9b15fa0c4a6c98b3713db92cd6a1ee30485712ebbc483f3"
+      },
+      {
+        "path": "lib/splunktalib/timer.py",
+        "hash": "0d0cb82e22d1cc81eeef88e94cdbbd9b89dce8f1bbfba12b1efb74a11985e556"
+      },
+      {
+        "path": "lib/splunktalib/timer_queue.py",
+        "hash": "90c02e7df0b6a227a6ac2badd29e8ce3f72ea5432b1141b1bc0cf7d1ec9b38e4"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/LICENSE",
+        "hash": "50e4396113babce2d3793aa6e5ececc4861e5209627b28b3fb89628005487d92"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/METADATA",
+        "hash": "88281592a47bf225c9286091669b7b065988477b7724ee20022120b312b30c00"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/RECORD",
+        "hash": "eb892a5ab2d8db024ace1c96ced6edff14b096cbaf2b13a3991cebd0d23c3406"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/splunktalib-3.0.4.dist-info/WHEEL",
+        "hash": "ed9f3fdbbb9a1c8fd4640738528c783e906143d639fe6a1d65758cc6d522e0d5"
+      },
+      {
+        "path": "lib/splunktaucclib/__init__.py",
+        "hash": "25826df5b321348d3a0e96b0b3a0721915f5dd3fd0ece08c18a1d0a780eb6270"
+      },
+      {
+        "path": "lib/splunktaucclib/alert_actions_base.py",
+        "hash": "004dac77f6165c2f7db2bd60e10afccf322f455d5ea0eb7e6b8a853b460c8fcf"
+      },
+      {
+        "path": "lib/splunktaucclib/cim_actions.py",
+        "hash": "c5ca32e91e3eb7de8c50fa7ffc1130ce4749446293bf14fa0f00956830e5bad0"
+      },
+      {
+        "path": "lib/splunktaucclib/common/__init__.py",
+        "hash": "a0cee7e5d7abc1d9e27c6e1fa6e7dc06114b5eef4db4b4110518daab91d44928"
+      },
+      {
+        "path": "lib/splunktaucclib/common/log.py",
+        "hash": "a1570c4f23cfc0089b608c8b9608b64a040c93ee4d6e9825451385219476ab15"
+      },
+      {
+        "path": "lib/splunktaucclib/config.py",
+        "hash": "ebd003726d21834c5850a490c05bc2ce2a15b41d9438e485f8e8cfd66135f0c1"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_checkpoint_manager.py",
+        "hash": "56942763897a2505b42f0d6af4185a8480d74b7d1caef7133387d0e957f7c631"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_config.py",
+        "hash": "ef5a05072dfae1996129eeb999d2bef0fd568212e8cfadd7cf1ba4c4999483f7"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_consts.py",
+        "hash": "01390241fa1bc0be1d77cc02fe6762ae7f972946c77a5e45454fa8f4e3dc1039"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_data_client.py",
+        "hash": "eb5e2c5694647f4ccaf6d3ab52e47e3a9fa36ea9dc7171bfe332330ff58b12fb"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_data_collector.py",
+        "hash": "8d148de69a746f524bac0c7477b12bd5c6dcc0b68c752877bb51e19cc53499b9"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_data_loader.py",
+        "hash": "7b54594a60af77bf366b9bd2e5014d5d0b809d5609a3a7b370eb54097c44e148"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_helper.py",
+        "hash": "e50fdea497e605dd56b5758052a065738c96540d21db2a5090e2cc79421bcb13"
+      },
+      {
+        "path": "lib/splunktaucclib/data_collection/ta_mod_input.py",
+        "hash": "7c984a16494f9ecd81846fb38e5f6da7419b86b6018c01c0238592c7e219029a"
+      },
+      {
+        "path": "lib/splunktaucclib/global_config/__init__.py",
+        "hash": "3c87d389623c6e22527609225de372cd8054afaa80d94c0e2260e8ed2d031cf1"
+      },
+      {
+        "path": "lib/splunktaucclib/global_config/configuration.py",
+        "hash": "ed787983063d51761d710b0d902d0becff331775dc994c34ae48d21230eddd0b"
+      },
+      {
+        "path": "lib/splunktaucclib/global_config/schema.py",
+        "hash": "b6fdd7fbaf5cb9e827b204be36367e76865719b5a3bdfd1855351eaf289ac53e"
+      },
+      {
+        "path": "lib/splunktaucclib/modinput_wrapper/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktaucclib/modinput_wrapper/base_modinput.py",
+        "hash": "fdf37adb1fb8d44e9f06052933e0b033a3db2cd89a2b4a87a4221c26e5b73a25"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/__init__.py",
+        "hash": "e7d3910ef0f5e08fcab1f9b41c2702e9f9d02c97fd299373413ec75e0dd901c6"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/admin_external.py",
+        "hash": "ce85da90de5134ed076edacd3acb55c514550af4527d26cda6d58aa44d625256"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/base.py",
+        "hash": "fc2f69866047d2b65b7e2c378e65f7e3207ab5d56fa4957eaf32ee3d804c42c5"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/base_hook_mixin.py",
+        "hash": "f3194de1ca0b33ae0e6fc19feb60b7734340f7adea1f4f100461b6e4283bf29c"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/cred_mgmt.py",
+        "hash": "bde261b5f8271246023f93f157a8bcdbdcaa177165543f860c5c9c06a9095d4c"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/credentials.py",
+        "hash": "ef688a70f25a67905d52a23d928f22bff947a8ec0f46dc57af07fdebd63535f0"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/datainput.py",
+        "hash": "eb9215063a1c78c87b99f952ea487493c2a09d390001e3015089d34202c5a1b6"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/eai.py",
+        "hash": "b6437249932053f947d998d66267c06709fe5dba6dde1dbd0be2cbe719b62873"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/endpoint/__init__.py",
+        "hash": "a28b42eb2ab0c16bf98fee61928d69a0eb23cb70c117ba480e62154943b0b06e"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/endpoint/converter.py",
+        "hash": "0fc9f55967835f8e90dc69f1937cc14ed09831e0dd58cb381cd97c6870027a1c"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/endpoint/field.py",
+        "hash": "0a3aa70e7a7c671fdf252a63383980ae352d800aae5e204570dbde9d9862dd09"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/endpoint/validator.py",
+        "hash": "7290251c6583ccc232e17d13b7e65c2fc8981b1561ae86dd4af9ca639f2a8e92"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/entity.py",
+        "hash": "da53a3218582820e551cb6870dd36653dd15dd12739408822694883343ef1ae9"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/error.py",
+        "hash": "bfca17f10f4bfac850eb2d423f8447298a9b1151574a15c530df972696d6fa93"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/error_ctl.py",
+        "hash": "9aa4b3293261625056cbb3d0e47ab4f990b522bb6369d0b8b7ccd9b0951b5e17"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/handler.py",
+        "hash": "da7c11949ca66c43ed6ba6167f1692b19e4ea1a419fb8eb874f723989db24595"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/multimodel.py",
+        "hash": "f59b71a2dee7ca96b6fe13566b68cf1444c1bac26567e52769dc702c3fbbe181"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/normaliser.py",
+        "hash": "3677fe302dc9dff58620e09bcee1237619545f7d4e932d53223705007acf141e"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/poster.py",
+        "hash": "4c5b57f727a98540eab1dd2d820d8f4664ffb98a1bfc0bcf32cc2492986d5928"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/schema.py",
+        "hash": "eb680825d60e5954a7a1804b454aec52d0ec0567c34ff9f0b22143fc5b81427d"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/teardown.py",
+        "hash": "b2847d29442f9e5e6041c3acbc47d52dbe5bf90f9b1c2d89d24348e60e20e016"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/util.py",
+        "hash": "3956555ed38604eca36eba24313d932934fcd3e71e4f09eaeabec8e6c24c36ab"
+      },
+      {
+        "path": "lib/splunktaucclib/rest_handler/validator.py",
+        "hash": "a2d0b175a394bdda35c01859185a3b28738591e83d354d326aa9d5bee0a4bf98"
+      },
+      {
+        "path": "lib/splunktaucclib/splunk_aoblib/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "lib/splunktaucclib/splunk_aoblib/rest_helper.py",
+        "hash": "6cf0955a7865325fa2a3ae17297cd33343a960d86d1135123c3ef80306aaf0f7"
+      },
+      {
+        "path": "lib/splunktaucclib/splunk_aoblib/rest_migration.py",
+        "hash": "c4b3c0d44bfdc4f91b5f28245c9d90fb37d819e963979f4c188eb2f9bab3bc64"
+      },
+      {
+        "path": "lib/splunktaucclib/splunk_aoblib/setup_util.py",
+        "hash": "8cc99cefe62f3d9ec6cde3bd1d7d85938d304484c81673be33c3abdb5d937b97"
+      },
+      {
+        "path": "lib/splunktaucclib/splunk_aoblib/utility.py",
+        "hash": "8fdcf7a6f4468109e61fd4523a08014b545cb6fe6514d4c3e3c11ba8aaf110d8"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/LICENSE",
+        "hash": "300a09380aff55e81cdaec9de51c9a48d9234592f8a7722d34ec26eac83d3d27"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/METADATA",
+        "hash": "5d04b8eac416f4f469a446184b94a043a2bd872f30cec000bcc66de8e8e57cb3"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/RECORD",
+        "hash": "172cf3a67ea6383a9ee3d2533cd8e819d55ff988d082e4be3196ff748de34685"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/splunktaucclib-6.0.9.dist-info/WHEEL",
+        "hash": "ed9f3fdbbb9a1c8fd4640738528c783e906143d639fe6a1d65758cc6d522e0d5"
+      },
+      {
+        "path": "lib/urllib3/__init__.py",
+        "hash": "8f7cb31c86e65bb092f8829027df8f3d07ff60a3bc10e01ecbfacc5b4511eeeb"
+      },
+      {
+        "path": "lib/urllib3/_collections.py",
+        "hash": "469d6657206073f52501ca7a3376add6c909057479278dcd6b0453bd6da0fd76"
+      },
+      {
+        "path": "lib/urllib3/_version.py",
+        "hash": "584ec62d8774215c2093ed60419fbb8f0d346c25188d84c895c58893b34e8443"
+      },
+      {
+        "path": "lib/urllib3/connection.py",
+        "hash": "98cb82223746d35911a45504370251a032a661eafb0993b9ea97d36c1092edcc"
+      },
+      {
+        "path": "lib/urllib3/connectionpool.py",
+        "hash": "ab3f880ab5ba8384d95426c343c7d17baf013295e4b24911f6f01563dcd45ad0"
+      },
+      {
+        "path": "lib/urllib3/contrib/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/urllib3/contrib/_appengine_environ.py",
+        "hash": "6c36f2384856d8228b25c42a00a032ac41cdf9a925b321c52aaeaf17c645b269"
+      },
+      {
+        "path": "lib/urllib3/contrib/_securetransport/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/urllib3/contrib/_securetransport/bindings.py",
+        "hash": "e1793ae2a2243c1b74f40e6af9120552e0e135cf665e29556a99bb5a7627cd1c"
+      },
+      {
+        "path": "lib/urllib3/contrib/_securetransport/low_level.py",
+        "hash": "076241076fcd44fd36c4ae8309ad4f6bd22ec6b3f0c730f365b8b14246fb53d3"
+      },
+      {
+        "path": "lib/urllib3/contrib/appengine.py",
+        "hash": "8f3e75e636580431539e1478cea7de682a3a25d0e0010a986eacc72bdb0391fc"
+      },
+      {
+        "path": "lib/urllib3/contrib/ntlmpool.py",
+        "hash": "7a3f601af7c06f61add3495a7c5a78e52228473f90c2b438582866ea04260253"
+      },
+      {
+        "path": "lib/urllib3/contrib/pyopenssl.py",
+        "hash": "6083324e25e22cf57f41f170dcf8d9df5986a8998ce44cf12238522f167b5543"
+      },
+      {
+        "path": "lib/urllib3/contrib/securetransport.py",
+        "hash": "8b3771e37805a141854a0c5ab1994e08be3615a338bd2b005539a13b4107d6f3"
+      },
+      {
+        "path": "lib/urllib3/contrib/socks.py",
+        "hash": "6918bd7965e8f5911bf795d4c5e7f8676d421659e78db122028f473ac7a832de"
+      },
+      {
+        "path": "lib/urllib3/exceptions.py",
+        "hash": "d0c9e7a372874cd7d745f63beb7f0db9f38f9146fa9973a6f8baa3fb8c76c3c0"
+      },
+      {
+        "path": "lib/urllib3/fields.py",
+        "hash": "92f2c30a0fc9987d652e3514118fc52d2f14858ee106f0cfb951136d8f2676b3"
+      },
+      {
+        "path": "lib/urllib3/filepost.py",
+        "hash": "e5bfeaaa04475652fbb8bb5d018073061f861e653901f255b7fd8dd174b73de6"
+      },
+      {
+        "path": "lib/urllib3/packages/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/urllib3/packages/backports/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/urllib3/packages/backports/makefile.py",
+        "hash": "9dbcedde2d1a80f54fd3b8eaaa08e16988cc9ae022fd6e44d04cb0662bd53bc1"
+      },
+      {
+        "path": "lib/urllib3/packages/six.py",
+        "hash": "d4b556ee58ea462ac595f1318f097ebf507bbd20143539b318cb3ea9acacdb38"
+      },
+      {
+        "path": "lib/urllib3/poolmanager.py",
+        "hash": "d0a38e2440a878b6158d41efbfed21e0eab7145410db26fe1678e46e3f2024ed"
+      },
+      {
+        "path": "lib/urllib3/request.py",
+        "hash": "645488a97d02e968b38b179c0a1677fe8932bbb044bf4959bb5553d2cea1e123"
+      },
+      {
+        "path": "lib/urllib3/response.py",
+        "hash": "f5be4dadbcc70e70b697f402f6eb8d40fbfbe62b35aa02daeccdc0c7866bf73f"
+      },
+      {
+        "path": "lib/urllib3/util/__init__.py",
+        "hash": "2449929a6aaa2f26b0f0fe75814226661f06c20f62d7349ef83a2a022b67da77"
+      },
+      {
+        "path": "lib/urllib3/util/connection.py",
+        "hash": "e4bc760753d6dbd2b1067d93d3190dd420604416b780654904aa10a11a201159"
+      },
+      {
+        "path": "lib/urllib3/util/proxy.py",
+        "hash": "cd4bcf3c226ba7a74e17437818055b39c97aa3ee2e5ca4ab1a24e492be6f512e"
+      },
+      {
+        "path": "lib/urllib3/util/queue.py",
+        "hash": "9d1817f3f797fbf564bf1a17d3de905a8cfc3ecd101d4004c482c263fecf9dc3"
+      },
+      {
+        "path": "lib/urllib3/util/request.py",
+        "hash": "7d688069af29c1d2cb22aa132c1c420b67b879df349aecca5377b71d6593cc54"
+      },
+      {
+        "path": "lib/urllib3/util/response.py",
+        "hash": "189a60dc4822f6a6895d1c01879c2ff8c36e4566a7e4122ee34a117a8c563f6f"
+      },
+      {
+        "path": "lib/urllib3/util/retry.py",
+        "hash": "8844a0d8fbd588d7570516383292f887492ac0e3a41e4c662e7d649211473d4f"
+      },
+      {
+        "path": "lib/urllib3/util/ssl_.py",
+        "hash": "734b188920badbbdabeae3e4c50a68e6b60f3fd402d5e47aa08ef4d38818a99a"
+      },
+      {
+        "path": "lib/urllib3/util/ssl_match_hostname.py",
+        "hash": "22be1c65512398093c8140081d64a2ef0b4e3bcdd4098001636c450f5425fd60"
+      },
+      {
+        "path": "lib/urllib3/util/ssltransport.py",
+        "hash": "340faee6b313ac3143142f10cd129410a306d39eb584e0f8a814ebdd9e29bfa1"
+      },
+      {
+        "path": "lib/urllib3/util/timeout.py",
+        "hash": "4126c150d381f7287a0270e7eb54ab2d0d21839a33d08f7eb97106f75009b888"
+      },
+      {
+        "path": "lib/urllib3/util/url.py",
+        "hash": "6aef6391432756bf50a7ff648381df671f6af6eafac97438bb9335ec89fe50a6"
+      },
+      {
+        "path": "lib/urllib3/util/wait.py",
+        "hash": "dcc50a452014243076b60728eea454b245b4cd7180598bd1444e10d7feb194bb"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/LICENSE.txt",
+        "hash": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/METADATA",
+        "hash": "5227260f04cb22b60bd8ee1f381beaf30c4c300c0cd8bf0960fef98c45edf034"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/RECORD",
+        "hash": "af7910a364418c7d77c36e01e2303b650f9834c4ef9c5ece62372b7903b2df8f"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/WHEEL",
+        "hash": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478"
+      },
+      {
+        "path": "lib/urllib3-1.26.9.dist-info/top_level.txt",
+        "hash": "10c8972f6b0aad3726accc481d3a9d737113e78a50236634ef62dec4511e9afa"
+      },
+      {
+        "path": "lookups/github_action_related_info.csv",
+        "hash": "889e1c7b76b92295e73fe5d17368f2065a7c23748eef7809de879aa9bf1c2d55"
+      },
+      {
+        "path": "lookups/github_cloud_action_lookup_220.csv",
+        "hash": "d434695fc63a81a3dca82ffc7f0835d4b939016cee51f78fcde3cae6392ff716"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "b6453d5bb2430c013ee89b765334cf788f0eddae7b9073fa31eb839eb1885d39"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/openapi.json",
+        "hash": "8dabeb70ceca0290e5ed7e67cb049e50b3bbc286b6c43f803c15be7a70173ef5"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}
